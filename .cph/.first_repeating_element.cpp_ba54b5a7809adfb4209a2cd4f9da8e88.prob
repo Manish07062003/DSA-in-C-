@@ -1,0 +1,1 @@
+{"name":"Local: first_repeating_element","url":"/Users/kushal/Desktop/DSA in C++/first_repeating_element.cpp","tests":[{"id":1642769130699,"input":"7\n1 3 7 6 3 3 5","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kushal/Desktop/DSA in C++/first_repeating_element.cpp","group":"local","local":true}
