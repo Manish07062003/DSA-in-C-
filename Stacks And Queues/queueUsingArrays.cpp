@@ -12,11 +12,11 @@ class Queue
 public:
     Queue()
     { // Constructor to initialize values
-        data = new T[5];
+        data = new T[3];
         nextIndex = 0;
         firstIndex = -1;
         size = 0;
-        capacity = 5;
+        capacity = 3;
     }
     int getSize()
     { // Returns number of elements present
@@ -83,27 +83,28 @@ public:
 };
 int main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+    // #ifndef ONLINE_JUDGE
+    //     freopen("input.txt", "r", stdin);
+    //     freopen("output.txt", "w", stdout);
+    // #endif
     Queue<int> q;
     q.enqueue(10);
     q.enqueue(20);
     q.enqueue(30);
     q.enqueue(40);
-    q.enqueue(50);
-    q.enqueue(60);
-    cout << q.dequeue() << endl;
+    // q.enqueue(50);
+    // q.enqueue(60);
+    // cout << q.dequeue() << endl;
     cout << q.dequeue() << endl;
     cout << q.dequeue() << endl;
     q.enqueue(60);
     q.enqueue(70);
-    q.enqueue(90);
-    cout << q.dequeue() << endl;
-    cout << q.dequeue() << endl;
     cout << q.front() << endl;
-    cout << q.getSize() << endl;
+    // q.enqueue(90);
+    cout << q.dequeue() << endl;
+    // cout << q.dequeue() << endl;
+    // cout << q.front() << endl;
+    // cout << q.getSize() << endl;
 
     return 0;
 }

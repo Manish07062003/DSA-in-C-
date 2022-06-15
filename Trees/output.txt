@@ -1,0 +1,23 @@
+Enter root data
+Enter left child of 1
+Enter right child of 1
+Enter left child of 2
+Enter right child of 2
+Enter left child of 3
+Enter right child of 3
+Enter left child of 5
+Enter right child of 5
+Enter left child of 6
+Enter right child of 6
+Enter left child of 7
+Enter right child of 7
+Enter left child of 8
+Enter right child of 8
+1: L2 R3 
+2: L5 R6 
+3: L7 R8 
+5: 
+6: 
+7: 
+8: 
+Number of Node are 7
